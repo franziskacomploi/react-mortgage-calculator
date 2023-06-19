@@ -26,12 +26,13 @@ const SliderComponent = ({
         min={min}
         max={max}
         defaultValue={defaultValue}
-        aria-label="Default"
+        aria-label={label}
         valueLabelDisplay="auto"
         onChange={onChange}
         value={value}
         marks
         step={steps}
+        color="secondary"
       />
       <Stack direction="row" justifyContent="space-between">
         <Typography variant="caption" color="text.secondary">

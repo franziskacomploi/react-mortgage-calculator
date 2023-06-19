@@ -13,7 +13,6 @@ function App() {
     loanAmount: 3000 * 0.8,
     loanTerm: 5,
     interestRate: 5,
-    // monthlyPayment: 0,
   });
 
   console.log(data);
